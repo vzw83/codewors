@@ -13,15 +13,15 @@
 //   }
 
 
-// function areYouPlayingBanjo(name) {
-//   if (name.charAt(0).toLowerCase() === "r") {
-//     return `${name} plays banjo`;
-//   } else {
-//     return `${name} does not play banjo`;
-//   }
-// }
-// console.log(areYouPlayingBanjo("Roma"));
-// console.log(areYouPlayingBanjo("Olya"));
+function areYouPlayingBanjo(name) {
+  if (name.charAt(0).toLowerCase() === "r") {
+    return `${name} plays banjo`;
+  } else {
+    return `${name} does not play banjo`;
+  }
+}
+console.log(areYouPlayingBanjo("Roma"));
+console.log(areYouPlayingBanjo("Olya"));
 
 
 // function checkScope() {
@@ -35,12 +35,12 @@
 //   }
 //   console.log(checkScope())
 
-const s = [5, 7, 2];
-function editInPlace() {
-  // Only change code below this line
- return s.splice(0, s.length, 2, 5, 7)
-  // Using s = [2, 5, 7] would be invalid
+// const s = [5, 7, 2];
+// function editInPlace() {
+//   // Only change code below this line
+//  return s.splice(0, s.length, 2, 5, 7)
+//   // Using s = [2, 5, 7] would be invalid
 
-  // Only change code above this line
-}
+//   // Only change code above this line
+// }
 console.log(editInPlace());
