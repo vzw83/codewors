@@ -20,3 +20,6 @@ class SmallestIntegerFinder {
     }
 }
 const finder = new SmallestIntegerFinder()
+
+console.log(finder.findSmallestInt([5,3,1,10,8]))
+console.log(finder.findSmallestInt([15,113,111,10,18]))
